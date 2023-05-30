@@ -5,7 +5,7 @@
     <head>
         <meta charset="UTF-8" />
         <title>Livros</title>
-        <link href="/css/bootstrap.mim.css" rel="stylesheet" />
+        <link href="/css/bootstrap.min.css" rel="stylesheet" />
     </head>
     <body>
         <div class="container">

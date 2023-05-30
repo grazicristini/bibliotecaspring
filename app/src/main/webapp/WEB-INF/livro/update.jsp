@@ -3,8 +3,8 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Novo Livro</title>
-    <link href="/css/bootstrap.mim.css" rel="stylesheet" />
+    <title>Editar Livro</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
     <div class="container">

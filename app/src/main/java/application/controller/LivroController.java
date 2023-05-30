@@ -51,8 +51,8 @@ public class LivroController {
     }
 
 
-    @RequestMapping(value= "/update", method = RequestMethod.POST)
-    public String update(@RequestParam("id") int id, @RequestParam("titulo") String titulo ) {
+    @RequestMapping(value = "/update", method = RequestMethod.POST)
+    public String update(@RequestParam("id") int id, @RequestParam("titulo") String titulo) {
         Optional<Livro> livro = livroRepo.findById(id);
 
         if(livro.isPresent()) {
@@ -75,3 +75,5 @@ public class LivroController {
         return "redirect:/livro/list";
     }
  }
+ 
+
